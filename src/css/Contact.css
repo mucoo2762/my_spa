@@ -1,0 +1,36 @@
+.contactDiv{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(214, 214, 214);
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+  color: #6b799e;
+}
+.contactDiv > div{
+    justify-content: flex-start;
+    align-items: center;
+    width: 33%;
+    height: 100px;
+}
+.contactImg{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.contactDiv > div > span:first-child{
+    font-size: 30px;
+    width: 100%;
+    color: #9c8f96;
+}
+.contactDiv > div > span:last-child{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10px;
+    color: #6b799e;
+}

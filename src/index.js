@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './css/index.css';
+import './css/fonts.css';
+import MainInfo from './MainInfo';
+import Skill from './Skill.js';
+import Project from './Project.js';
+import About from './About.js';
+import Contact from './Contact.js';
+import Footer from './Footer.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainInfo />
+    <Skill />
+    <Project />
+    <About />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

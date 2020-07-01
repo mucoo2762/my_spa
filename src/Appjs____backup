@@ -1,0 +1,82 @@
+import React, { Component } from 'react';
+import './css/MainInfo.css';
+import Skill from './Skill.js';
+import Project from './Project.js';
+
+// ============================================================
+
+
+class MainInfo extends Component{
+  state = {
+    
+  };
+
+
+  render(){
+    return(
+      <div>
+        <div className="topDiv">top div</div>
+        <Skill />
+        <Project />
+      </div>
+    );
+  };
+}
+
+
+export default MainInfo;
+
+
+
+
+{/* <div>
+        <div className="topDiv">top div</div>
+        <div className="skillDiv">
+          <span>Skills</span>
+          <div className="skillContentDiv flx-row">
+            <span className="skiils">HTML</span>
+            <span className="skiils">CSS</span>
+            <span className="skiils">JS</span>
+            <span className="skiils">React</span>
+            <span className="skiils">Node</span> 
+            <span className="skiils">DB</span>
+            <span className="skiils">JSP</span>
+            <span className="skiils">jQuery</span>
+          </div>
+        </div>
+        <div className="pjtDiv flx-Clmn flx-center">
+          <h3>Project</h3>
+          <div className="pjtContDiv flx-row">
+            <div className="arrowDiv flx-row flx-center">&lt;</div>
+            <div className="pjtInfoDiv">As its official tagline states, React is a library for building user interfaces. React is not a framework – it's not even exclusive to the web. It's used with other libraries to render to certain environments. For instance, React Native can be used to build mobile applications; React 360 can be used to build virtual reality applications; and there are other possibilities besides.<br></br>To build for the web, developers use React in tandem with ReactDOM. React and ReactDOM are often discussed in the same spaces as, and utilized to solve the same problems as, other true web development frameworks. When we refer to React as a "framework", we’re working with that colloquial understanding.<br></br>React's primary goal is to minimize the bugs that occur when developers are building UIs. It does this through the use of components — self-contained, logical pieces of code that describe a portion of the user interface. These components can be composed together to create a full UI, and React abstracts away much of the rendering work, leaving you to concentrate on the UI design.</div>
+            <div className="pjtImgDiv">
+              <Carousel>
+                <div>
+                  <img src={pjtImg_01} alt=""/>
+                </div>
+                <div>
+                  <img src={pjtImg_02} alt=""/>
+                </div>
+                <div>
+                  <img src={pjtImg_03} alt=""/>
+                </div>
+              </Carousel>
+            </div>
+            <div className="arrowDiv flx-row flx-center">&gt;</div>
+          </div>
+          
+
+
+
+
+          <div>
+            <span className="dot"></span>
+          </div>
+          <div className="pjtContDiv flx-row">
+            <div className="arrowDiv flx-row flx-center">&lt;</div>
+            <div className="pjtInfoDiv">As its official tagline states, React is a library for building user interfaces. React is not a framework – it's not even exclusive to the web. It's used with other libraries to render to certain environments. For instance, React Native can be used to build mobile applications; React 360 can be used to build virtual reality applications; and there are other possibilities besides.<br></br>To build for the web, developers use React in tandem with ReactDOM. React and ReactDOM are often discussed in the same spaces as, and utilized to solve the same problems as, other true web development frameworks. When we refer to React as a "framework", we’re working with that colloquial understanding.<br></br>React's primary goal is to minimize the bugs that occur when developers are building UIs. It does this through the use of components — self-contained, logical pieces of code that describe a portion of the user interface. These components can be composed together to create a full UI, and React abstracts away much of the rendering work, leaving you to concentrate on the UI design.</div>
+            <div className="pjtImgDiv"></div>
+            <div className="arrowDiv flx-row flx-center">&gt;</div>
+          </div>
+        </div>
+      </div> */}

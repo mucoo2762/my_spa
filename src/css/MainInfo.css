@@ -1,0 +1,67 @@
+.topDiv{
+  width: 100%;
+  height: 550px;
+}
+header{
+  width: 100%;
+  height: 70px;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  margin: 0 20px 0 0;
+}
+header > li{
+  list-style-type: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px 20px;
+}
+.liEven{ color: white; }
+.liOdd{ color: #ebc57c; }
+.bgImgDiv{
+  height: 480px;
+}
+.background{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 550px;
+  width: 100vw;
+  opacity: 0.75;
+  z-index: -1;
+  filter: grayscale(100%) brightness(40%);
+}
+.mainTextDiv{
+  height: 440px;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+.colorSpan{
+  color: #a6c2ce;
+}
+.whiteSpan{
+  color: white;
+}
+
+
+
+
+/* ============================================================== */
+
+
+.flx-row{
+  display: flex;
+  flex-direction: row;
+}
+.flx-Clmn{
+  display: flex;
+  flex-direction: column;
+}
+.flx-center{
+  justify-content: center;
+  align-items: center;
+}
+
