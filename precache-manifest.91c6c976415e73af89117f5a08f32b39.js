@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8aad0875aca4c1a23eaa557d1ceb4c36",
+    "revision": "22d9e81aa6a10038507b461b8946162a",
     "url": "/my_spa/index.html"
   },
   {
-    "revision": "c633dc9c55eb4f647640",
-    "url": "/my_spa/static/css/2.fb346933.chunk.css"
+    "revision": "49fe31e818c8002e5b1a",
+    "url": "/my_spa/static/css/main.1a5749c0.chunk.css"
   },
   {
-    "revision": "edfbd46b1b75c121c801",
-    "url": "/my_spa/static/css/main.af245b60.chunk.css"
+    "revision": "7f773f4488e326053c8a",
+    "url": "/my_spa/static/js/2.65f6a28d.chunk.js"
   },
   {
-    "revision": "c633dc9c55eb4f647640",
-    "url": "/my_spa/static/js/2.4a0e9fec.chunk.js"
+    "revision": "0749163b59fbee32225059cb60c18af6",
+    "url": "/my_spa/static/js/2.65f6a28d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/my_spa/static/js/2.4a0e9fec.chunk.js.LICENSE.txt"
-  },
-  {
-    "revision": "edfbd46b1b75c121c801",
-    "url": "/my_spa/static/js/main.04409bed.chunk.js"
+    "revision": "49fe31e818c8002e5b1a",
+    "url": "/my_spa/static/js/main.3b73a54b.chunk.js"
   },
   {
     "revision": "e4c5e6f47f554806c748",
@@ -30,14 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a95cb88be1095a0cf15b8bd8b8566149",
     "url": "/my_spa/static/media/Baloo2-Regular.a95cb88b.ttf"
-  },
-  {
-    "revision": "ef7f75f826bb36916b62a610de58edb7",
-    "url": "/my_spa/static/media/Email.ef7f75f8.png"
-  },
-  {
-    "revision": "172a26726510a662eebf2818523eca05",
-    "url": "/my_spa/static/media/Phone.172a2672.png"
   },
   {
     "revision": "4ad74ffe34b23dc2e4e4ab8d1e1871c5",
@@ -92,15 +80,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my_spa/static/media/bg.a05471b2.jpg"
   },
   {
-    "revision": "880fbe19fe1688b0085b0c2a22d0ea4e",
-    "url": "/my_spa/static/media/pjt_01.880fbe19.PNG"
+    "revision": "50501c598484ec70d67d3563e7ec1ddd",
+    "url": "/my_spa/static/media/contact.50501c59.jpg"
   },
   {
     "revision": "5f5596b46da4c9371af3cd593c919293",
-    "url": "/my_spa/static/media/pjt_02.5f5596b4.PNG"
+    "url": "/my_spa/static/media/pjt_clock_clone.5f5596b4.PNG"
+  },
+  {
+    "revision": "880fbe19fe1688b0085b0c2a22d0ea4e",
+    "url": "/my_spa/static/media/pjt_clock_custom.880fbe19.PNG"
+  },
+  {
+    "revision": "e66a7ca8775f0c43bf06aabaef71ac0b",
+    "url": "/my_spa/static/media/pjt_movieApp_custom.e66a7ca8.PNG"
   },
   {
     "revision": "2e1befc3f85140f93226d81d4c1018f6",
-    "url": "/my_spa/static/media/pjt_03.2e1befc3.PNG"
+    "url": "/my_spa/static/media/pjt_web_clone.2e1befc3.PNG"
   }
 ]);
