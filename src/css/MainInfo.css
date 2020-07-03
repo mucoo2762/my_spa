@@ -1,28 +1,37 @@
-.topDiv{
+.MainInfo-topDiv{
   width: 100%;
   height: 550px;
 }
-header{
+.MainInfo-topDiv > header{
   width: 100%;
   height: 70px;
   justify-content: flex-end;
   align-items: center;
   font-size: 30px;
   margin: 0 20px 0 0;
+  position: fixed;
+  background-color: black;
+  opacity: 0.75;
+  z-index: 1;
 }
-header > li{
+.MainInfo-topDiv > header > li{
   list-style-type: none;
-  color: white;
   font-size: 25px;
   font-weight: bold;
   margin: 5px 20px;
 }
-.liEven{ color: white; }
-.liOdd{ color: #ebc57c; }
-.bgImgDiv{
+.MainInfo-liEven{ 
+  color: white; 
+  cursor: pointer;
+}
+.MainInfo-liOdd{ 
+  color: #ebc57c; 
+  cursor: pointer;
+}
+.MainInfo-bgImgDiv{
   height: 480px;
 }
-.background{
+.MainInfo-background{
   position: absolute;
   top: 0px;
   left: 0px;
@@ -33,16 +42,17 @@ header > li{
   z-index: -1;
   filter: grayscale(100%) brightness(40%);
 }
-.mainTextDiv{
+.MainInfo-mainTextDiv{
   height: 440px;
   font-size: 70px;
   font-weight: bold;
   text-align: center;
+  padding-top: 70px;
 }
-.colorSpan{
+.MainInfo-colorSpan{
   color: #a6c2ce;
 }
-.whiteSpan{
+.MainInfo-whiteSpan{
   color: white;
 }
 
