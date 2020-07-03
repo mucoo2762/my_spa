@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/my_spa/static/css/main.1a5749c0.chunk.css",
-    "main.js": "/my_spa/static/js/main.3b73a54b.chunk.js",
-    "main.js.map": "/my_spa/static/js/main.3b73a54b.chunk.js.map",
+    "main.css": "/my_spa/static/css/main.8d18da89.chunk.css",
+    "main.js": "/my_spa/static/js/main.8dd10b25.chunk.js",
+    "main.js.map": "/my_spa/static/js/main.8dd10b25.chunk.js.map",
     "runtime-main.js": "/my_spa/static/js/runtime-main.8752d5f1.js",
     "runtime-main.js.map": "/my_spa/static/js/runtime-main.8752d5f1.js.map",
-    "static/js/2.65f6a28d.chunk.js": "/my_spa/static/js/2.65f6a28d.chunk.js",
-    "static/js/2.65f6a28d.chunk.js.map": "/my_spa/static/js/2.65f6a28d.chunk.js.map",
+    "static/js/2.2e4187e2.chunk.js": "/my_spa/static/js/2.2e4187e2.chunk.js",
+    "static/js/2.2e4187e2.chunk.js.map": "/my_spa/static/js/2.2e4187e2.chunk.js.map",
     "index.html": "/my_spa/index.html",
-    "precache-manifest.91c6c976415e73af89117f5a08f32b39.js": "/my_spa/precache-manifest.91c6c976415e73af89117f5a08f32b39.js",
+    "precache-manifest.b0555301a6b759a204c0047e768a3521.js": "/my_spa/precache-manifest.b0555301a6b759a204c0047e768a3521.js",
     "service-worker.js": "/my_spa/service-worker.js",
-    "static/css/main.1a5749c0.chunk.css.map": "/my_spa/static/css/main.1a5749c0.chunk.css.map",
-    "static/js/2.65f6a28d.chunk.js.LICENSE.txt": "/my_spa/static/js/2.65f6a28d.chunk.js.LICENSE.txt",
+    "static/css/main.8d18da89.chunk.css.map": "/my_spa/static/css/main.8d18da89.chunk.css.map",
+    "static/js/2.2e4187e2.chunk.js.LICENSE.txt": "/my_spa/static/js/2.2e4187e2.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/my_spa/static/media/SpoqaHanSansThin.a1a1697f.woff",
     "static/media/bg.jpg": "/my_spa/static/media/bg.a05471b2.jpg",
+    "static/media/chat_login.PNG": "/my_spa/static/media/chat_login.673d290a.PNG",
+    "static/media/chat_room.PNG": "/my_spa/static/media/chat_room.f4fb66a5.PNG",
+    "static/media/chat_roomList.PNG": "/my_spa/static/media/chat_roomList.c544e90d.PNG",
     "static/media/contact.jpg": "/my_spa/static/media/contact.50501c59.jpg",
     "static/media/pjt_clock_clone.PNG": "/my_spa/static/media/pjt_clock_clone.5f5596b4.PNG",
     "static/media/pjt_clock_custom.PNG": "/my_spa/static/media/pjt_clock_custom.880fbe19.PNG",
@@ -22,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8752d5f1.js",
-    "static/js/2.65f6a28d.chunk.js",
-    "static/css/main.1a5749c0.chunk.css",
-    "static/js/main.3b73a54b.chunk.js"
+    "static/js/2.2e4187e2.chunk.js",
+    "static/css/main.8d18da89.chunk.css",
+    "static/js/main.8dd10b25.chunk.js"
   ]
 }
