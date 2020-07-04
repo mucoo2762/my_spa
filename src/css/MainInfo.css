@@ -3,7 +3,7 @@
   height: 550px;
 }
 .MainInfo-topDiv > header{
-  width: 100%;
+  width: 100vw;
   height: 70px;
   justify-content: flex-end;
   align-items: center;
@@ -80,7 +80,7 @@
 /* ============================================================== */
 @media (max-width: 400px){
   .MainInfo-topDiv > header{
-    width: 100%;
+    width: 100vw;
     height: 70px;
     justify-content: flex-end;
     align-items: center;
