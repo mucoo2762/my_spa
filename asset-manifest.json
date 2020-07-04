@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my_spa/static/css/main.282001f6.chunk.css",
+    "main.css": "/my_spa/static/css/main.e2ab5f3b.chunk.css",
     "main.js": "/my_spa/static/js/main.1d61d320.chunk.js",
     "main.js.map": "/my_spa/static/js/main.1d61d320.chunk.js.map",
     "runtime-main.js": "/my_spa/static/js/runtime-main.8752d5f1.js",
@@ -8,9 +8,9 @@
     "static/js/2.bc8c3b44.chunk.js": "/my_spa/static/js/2.bc8c3b44.chunk.js",
     "static/js/2.bc8c3b44.chunk.js.map": "/my_spa/static/js/2.bc8c3b44.chunk.js.map",
     "index.html": "/my_spa/index.html",
-    "precache-manifest.3197e6f340d0e90c48e7b06f8eede001.js": "/my_spa/precache-manifest.3197e6f340d0e90c48e7b06f8eede001.js",
+    "precache-manifest.7ec181d0f396f1cc3986eefd529a15bc.js": "/my_spa/precache-manifest.7ec181d0f396f1cc3986eefd529a15bc.js",
     "service-worker.js": "/my_spa/service-worker.js",
-    "static/css/main.282001f6.chunk.css.map": "/my_spa/static/css/main.282001f6.chunk.css.map",
+    "static/css/main.e2ab5f3b.chunk.css.map": "/my_spa/static/css/main.e2ab5f3b.chunk.css.map",
     "static/js/2.bc8c3b44.chunk.js.LICENSE.txt": "/my_spa/static/js/2.bc8c3b44.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/my_spa/static/media/SpoqaHanSansThin.a1a1697f.woff",
     "static/media/bg.jpg": "/my_spa/static/media/bg.a05471b2.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.8752d5f1.js",
     "static/js/2.bc8c3b44.chunk.js",
-    "static/css/main.282001f6.chunk.css",
+    "static/css/main.e2ab5f3b.chunk.css",
     "static/js/main.1d61d320.chunk.js"
   ]
 }
