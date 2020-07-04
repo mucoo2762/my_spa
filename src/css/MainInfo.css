@@ -48,6 +48,7 @@
   font-weight: bold;
   text-align: center;
   padding-top: 70px;
+  flex-wrap: wrap;
 }
 .MainInfo-colorSpan{
   color: #a6c2ce;
@@ -55,7 +56,47 @@
 .MainInfo-whiteSpan{
   color: white;
 }
+.spanFirst{
+  width: 320px;
+  justify-content: flex-start;
+  margin: 0 5px;
+}
+.spanFirst:first-child{
+  justify-content: flex-end;
+}
+.spanSecond{
+  width: 100%;
+}
+.white-icon {
+  color: white;
+}
+.menuIcon{
+  cursor: default;
+  margin-right: 20px;
+}
+.menuIcon > svg > path{
+  display: none;
+}
+.menuText{
+  display: block;
+}
+.menuLi{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  right: 0px;
 
+}
+.menuLi > li{
+  list-style-type: none;
+  font-weight: bold;
+  padding: 3px 0 3px 15px;
+  font-size: 20px;
+}
 
 
 
@@ -74,25 +115,32 @@
   justify-content: center;
   align-items: center;
 }
+.none{
+  display: none;
+}
+.block{
+display: block;
+}
 
 
 
 /* ============================================================== */
-@media (max-width: 400px){
-  .MainInfo-topDiv > header{
-    width: 100vw;
-    height: 70px;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 30px;
-    margin: 0 20px 0 0;
-    position: fixed;
-    background-color: black;
-    opacity: 0.75;
-    z-index: 1;
+@media (max-width: 660px){
+  .menuText{
+    display: none;
   }
-  .MainInfo-topDiv > header > li{
-    font-size: 0.7rem;
-    margin: 5px 20px;
+  .menuIcon{
+    cursor: pointer;
+  }
+  .menuIcon > svg > path{
+    display: block;
+  }
+  .spanFirst{
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+  .spanFirst:first-child{
+    justify-content: center;
   }
 }

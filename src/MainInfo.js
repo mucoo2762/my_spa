@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import './css/MainInfo.css';
 import bgImg from './images/bg.jpg';
 
+import Menu from "@material-ui/icons/Menu";
 // ============================================================
 
 
 class MainInfo extends Component{
   state = {
-    
   };
 
   componentDidMount(){
@@ -51,25 +51,40 @@ class MainInfo extends Component{
     }
   }
 
+  handlerOpenMenuList(){
+    const menuListDiv = document.querySelector(".menuLi");
+
+    if(menuListDiv.classList.contains("none")){
+      menuListDiv.classList.remove("none");
+    }else{
+      menuListDiv.classList.add("none");
+    }
+  }
+
 
   render(){
     return(
       <div className="MainInfo-topDiv">
         <header className="flx-row">
-          <li className="MainInfo-liOdd" onClick={() => this.handlerClickMenu('skill')}>Skill</li>
-          <li className="MainInfo-liEven" onClick={() => this.handlerClickMenu('project')}>Project</li>
-          <li className="MainInfo-liOdd" onClick={() => this.handlerClickMenu('about')}>About</li>
-          <li className="MainInfo-liEven" onClick={() => this.handlerClickMenu('contact')}>Contact</li>
+          <span className="flx-row flx-center menuIcon" onClick={() => this.handlerOpenMenuList()}><Menu className="white-icon" fontSize="large"/></span>
+          <div className="menuLi none">
+            <li className="MainInfo-liOdd" onClick={() => this.handlerClickMenu('skill')}>Skill</li>
+            <li className="MainInfo-liEven" onClick={() => this.handlerClickMenu('project')}>Project</li>
+            <li className="MainInfo-liOdd" onClick={() => this.handlerClickMenu('about')}>About</li>
+            <li className="MainInfo-liEven" onClick={() => this.handlerClickMenu('contact')}>Contact</li>
+          </div>
+          <li className="MainInfo-liOdd menuText" onClick={() => this.handlerClickMenu('skill')}>Skill</li>
+          <li className="MainInfo-liEven menuText" onClick={() => this.handlerClickMenu('project')}>Project</li>
+          <li className="MainInfo-liOdd menuText" onClick={() => this.handlerClickMenu('about')}>About</li>
+          <li className="MainInfo-liEven menuText" onClick={() => this.handlerClickMenu('contact')}>Contact</li>
         </header>
         <img src={bgImg} className="MainInfo-background" alt=""/>
-        <div className="MainInfo-mainTextDiv flx-Clmn flx-center">
-          <span className="MainInfo-colorSpan flx-row">Front-End&nbsp;<span className="MainInfo-whiteSpan">Developer</span></span>
-          <span className="MainInfo-whiteSpan">Portfolio</span>
-          <span className="MainInfo-colorSpan">서은결</span>
+        <div className="MainInfo-mainTextDiv flx-row flx-center">
+          <span className="MainInfo-colorSpan spanFirst flx-row">Front-End</span>
+          <span className="MainInfo-whiteSpan spanFirst flx-row">Developer</span>
+          <span className="MainInfo-whiteSpan spanSecond">Portfolio</span>
+          <span className="MainInfo-colorSpan spanSecond">서은결</span>
         </div>
-        {/* <div className="bgImgDiv">
-          <img src={bgImg} alt=""/>
-        </div> */}
       </div>
     );
   };
