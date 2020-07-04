@@ -234,3 +234,14 @@ display: block;
   }
 }
 
+@media (max-width: 660px){
+  .Pj-openPageBtn{
+    width: 100%;
+  }
+  .Pj-gitSourceBtn{
+    width: 100%;
+  }
+  .Pj-arrowDiv{
+    font-size: 5rem;
+  }
+}

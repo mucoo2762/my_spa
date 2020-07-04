@@ -76,3 +76,10 @@
     width: 100%;
   }
 }
+
+@media (max-width: 660px){
+  .Skill-handledSkillDiv > span{
+    width: 20vw;
+    height: 20vw;
+  }
+}
