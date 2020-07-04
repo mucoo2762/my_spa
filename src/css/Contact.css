@@ -14,17 +14,22 @@
     height: 500px;
     filter: grayscale(100%);
     opacity: 0.6;
-    z-index: 1;
+    z-index: 0;
 }
 .Ctt-RightDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 2400px;
     left: 42vw;
     width: 57vw;
-    justify-content: center;
-    align-items: center;
 }
 .Ctt-RightDiv > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100px;
 }
@@ -35,7 +40,7 @@
     height: 50px;
     font-size: 40px;
     color: #6b799e;
-    z-index: 1;
+    z-index: 0;
 }
 .Ctt-RightDiv > div > span:first-child{
     font-size: 30px;
@@ -54,4 +59,60 @@
     color: #6b799e;
     justify-content: flex-start;
     align-items: center;
+}
+
+
+
+
+/* ============================================================== */
+@media (max-width:980px) {
+    .Ctt-contactDiv > img{
+        top: 2750px;
+    }
+    .Ctt-contactDiv > h1{
+        top: 2750px;
+    }
+    .Ctt-RightDiv{
+        top: 2900px;
+    }
+}
+@media (max-width:850px) {
+    .Ctt-contactDiv > img{
+        top: 3050px;
+    }
+    .Ctt-contactDiv > h1{
+        top: 3050px;
+    }
+    .Ctt-RightDiv{
+        top: 3200px;
+    }
+}
+@media (max-width:780px) {
+    .Ctt-contactDiv > img{
+        top: 3080px;
+    }
+    .Ctt-contactDiv > h1{
+        top: 3080px;
+    }
+    .Ctt-RightDiv{
+        top: 3230px;
+    }
+    .Ctt-RightDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 42vw;
+    }
+    .Ctt-RightDiv > div{
+        flex-direction: column;
+    }
+    .Ctt-RightDiv > div > span:first-child{
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .Ctt-RightDiv > div > span:last-child{
+        justify-content: center;
+        margin-left: 0px;
+    }
 }

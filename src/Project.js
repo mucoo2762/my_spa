@@ -10,6 +10,9 @@ import chat_login from './images/chat_login.PNG';
 import chat_roomList from './images/chat_roomList.PNG';
 import chat_room from './images/chat_room.PNG';
 
+import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
+import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
+
 // ============================================================
 
 class Project extends Component{
@@ -119,8 +122,10 @@ class Project extends Component{
                     <span id="dot05" className="Pj-unselectedDot"></span>
                 </li>
                 <div className="Pj-pjtContDiv flx-row">
-                    <div className="Pj-arrowDiv flx-row flx-center" onClick={() => this.handlerArrowClick('left')}>&lt;</div>
-                    <div className="Pj-pjtListDiv flx-row">
+                    <div className="Pj-arrowDiv flx-row flx-center" onClick={() => this.handlerArrowClick('left')}>
+                        &lt;
+                    </div>
+                    <div className="Pj-pjtListDiv">
                         <div className="Pj-pjtInfoDiv">
                             <div id="pjtInfo01" className="block fade">
                                 <button className="Pj-openPageBtn" onClick={() => this.handlerGoToAddress("https://mucoo2762.github.io/Clock_Weather/")}>
@@ -134,7 +139,7 @@ class Project extends Component{
                                 <button className="Pj-openPageBtn" onClick={() => this.handlerGoToAddress("https://mucoo2762.github.io/cloncoding_2/")}>
                                     <span className="Pj-colorWhilte">Open</span> This Page</button>
                                 <div>
-                                    <h3>[pjtImg_02]</h3>As its official tagline states, React is a library for building user interfaces. React is not a framework – it's not even exclusive to the web. It's used with other libraries to render to certain environments. For instance, React Native can be used to build mobile applications; React 360 can be used to build virtual reality applications; and there are other possibilities besides.<br></br>To build for the web, developers use React in tandem with ReactDOM. React and ReactDOM are often discussed in the same spaces as, and utilized to solve the same problems as, other true web development frameworks. When we refer to React as a "framework", we’re working with that colloquial understanding.
+                                    <h3>[ JS로 만든 SPA ]</h3>앞의 React SPA와 같은 내용이며, HTML/CSS/JS로 만들었다.<br></br><br></br>- 오늘의 날짜와 시간, 현재 위치의 날씨 출력<br></br>- 이름을 입력하면 localStrage에 저장 후, 이름 출력<br></br>- 오른쪽에는 나의 할 일을 불러와서 출력<br></br>- 할 일 리스트는 추가/삭제 가능
                                 </div>
                                 <button id="pjtSource01" className="Pj-gitSourceBtn" onClick={() => this.handlerGoToAddress("https://github.com/mucoo2762/cloncoding_2")}>github source</button>
                             </div>
@@ -163,10 +168,10 @@ class Project extends Component{
                             </div>
                         </div>
                         <div className="Pj-pjtImgDiv pjtImg_01">
-                            <img src={pjt_clock_custom} id="img01" className="size-100pc block fade" alt=""/>
-                            <img src={pjt_clock_clone} id="img02" className="size-100pc none fade" alt=""/>
-                            <img src={pjt_web_clone} id="img03" className="size-100pc none fade" alt=""/>
-                            <img src={pjt_movieApp_custom} id="img04" className="size-100pc none fade" alt=""/>
+                            <img src={pjt_clock_custom} id="img01" className="size-100_80pc block fade" alt=""/>
+                            <img src={pjt_clock_clone} id="img02" className="size-100_80pc none fade" alt=""/>
+                            <img src={pjt_web_clone} id="img03" className="size-100_80pc none fade" alt=""/>
+                            <img src={pjt_movieApp_custom} id="img04" className="size-100_80pc none fade" alt=""/>
                             <div id="img05" className="none fade">
                                 <img src={chat_login} className="size-30pc" alt="" onClick={() => this.handlerOpenImgModal(chat_login)}/>
                                 <img src={chat_roomList} className="size-30pc" alt="" onClick={() => this.handlerOpenImgModal(chat_roomList)}/>
@@ -175,7 +180,9 @@ class Project extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="Pj-arrowDiv flx-row flx-center" onClick={() => this.handlerArrowClick('right')}>&gt;</div>
+                    <div className="Pj-arrowDiv flx-row flx-center" onClick={() => this.handlerArrowClick('right')}>
+                        &gt;
+                    </div>
                 </div>
 
                 <div className="Pj-modalDiv flx-Clmn none">

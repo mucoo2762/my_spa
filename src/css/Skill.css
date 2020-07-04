@@ -61,3 +61,18 @@
 
 
 /* ============================================================== */
+
+@media (max-width:780px) {
+  .Skill-skillDiv{
+    margin-bottom: 30px;
+  }
+  .Skill-titleSpan{
+    width: 100%;
+  }
+  .Skill-canHandleDiv{
+    width: 100%;
+  }
+  .Skill-handledSkillDiv{
+    width: 100%;
+  }
+}

@@ -14,19 +14,39 @@ class MainInfo extends Component{
     window.scrollTo(0, 0);
   }
 
-  handlerClickMenu = (ss) => {
-    switch(ss){
+  handlerClickMenu = (menu) => {
+    const windowWidth = window.innerWidth;
+    
+    switch(menu){
       case 'skill' : 
         window.scrollTo({top:480, left:0, behavior:'smooth'});
         break;
       case 'project' : 
-        window.scrollTo({top:980, left:0, behavior:'smooth'});
+        if(windowWidth > 780){
+          window.scrollTo({top:980, left:0, behavior:'smooth'});
+        } else {
+          window.scrollTo({top:1010, left:0, behavior:'smooth'}); 
+        }
         break;
       case 'about' : 
-        window.scrollTo({top:1630, left:0, behavior:'smooth'});
+        if(windowWidth > 980){
+          window.scrollTo({top:1630, left:0, behavior:'smooth'});
+        } else if(windowWidth <= 980 && windowWidth > 780){
+            window.scrollTo({top:2130, left:0, behavior:'smooth'});
+        } else {
+          window.scrollTo({top:2160, left:0, behavior:'smooth'}); 
+        }
         break;
       case 'contact' : 
-        window.scrollTo({top:2180, left:0, behavior:'smooth'});
+        if(windowWidth > 980){
+          window.scrollTo({top:2180, left:0, behavior:'smooth'});
+        } else if(windowWidth <= 980 && windowWidth > 850){
+            window.scrollTo({top:2680, left:0, behavior:'smooth'});
+        } else if(windowWidth <= 850 && windowWidth > 780){
+            window.scrollTo({top:2980, left:0, behavior:'smooth'});
+        } else {
+          window.scrollTo({top:3010, left:0, behavior:'smooth'}); 
+        }
         break;
     }
   }

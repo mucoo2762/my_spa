@@ -15,21 +15,18 @@
     width: 70%;
     margin-top: 20px;
     padding: 0 15%;
+    flex-wrap: wrap;
 }
 .About-aboutLeftDiv{
     width: 50%;
     justify-content: flex-start;
     align-items: flex-start;
-    /* border: 1px solid red; */
 }
 .About-aboutTitle{
-    /* border: 3px solid #a6c2ce;
-    border-radius: 0.75rem; */
     color: #6b799e;
     font-size: 35px;
     font-weight: bold;
     margin-top: 20px;
-    /* padding: 0 20px; */
 }
 .About-aboutContTxt{
     font-size: 20px;
@@ -40,7 +37,6 @@
     width: 50%;
     justify-content: flex-start;
     align-items: flex-start;
-    /* border: 1px solid green; */
 }
 
 
@@ -52,4 +48,24 @@
 }
 pre{
     margin: 0px;
+}
+
+
+
+/* ============================================================== */
+@media (max-width:850px) {
+    .About-contDiv{
+        width: 450px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .About-aboutLeftDiv{
+        width: 450px;
+    }
+    .About-aboutRightDiv{
+        width: 450px;
+    }
+    .About-aboutDiv{
+        height: 850px;
+    }
 }

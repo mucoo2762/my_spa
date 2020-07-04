@@ -20,22 +20,22 @@ class Contact extends Component{
             <div className="Ctt-contactDiv flx-Clmn">
                 <img src={contactImg} alt="" />
                 <h1 className="flx-row flx-center">Contact</h1>
-                <div className="Ctt-RightDiv flx-Clmn">
-                    <div className="flx-row flx-center">
+                <div className="Ctt-RightDiv">
+                    <div>
                         <span className="flx-row">
                             <Person />
                             &nbsp;&nbsp;Name
                         </span>
                         <span className="flx-row">서은결 (Seo Eungyeol)</span>
                     </div>
-                    <div className="flx-row flx-center">
+                    <div>
                         <span className="flx-row">
                             <Phone />
                             &nbsp;&nbsp;Phone
                         </span>
                         <span className="flx-row">010-4877-2762</span>
                     </div>
-                    <div className="flx-row flx-center">
+                    <div>
                         <span className="flx-row">
                             <Email />
                             &nbsp;&nbsp;E-mail
